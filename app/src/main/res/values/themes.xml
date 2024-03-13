@@ -3,6 +3,14 @@
     <style name="Base.Theme.MarioHernandezNew" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowBackground">#FFDDDD</item>
+    </style>
+
+    <style name="MenuStyle" parent="Theme.MaterialComponents.Light">
+
+        <item name="popupMenuBackground">@color/verdeolivo</item>
+        <item name="android:textColor">@color/white</item>
+
     </style>
 
     <style name="Theme.MarioHernandezNew" parent="Base.Theme.MarioHernandezNew" />

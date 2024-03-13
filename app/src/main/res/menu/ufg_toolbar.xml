@@ -4,35 +4,35 @@
 
     <item
         android:id="@+id/configuration"
-        android:title="Configuracion"
+        android:title="@string/item_menu_configuracion"
         android:icon="@drawable/configuration_icon"
         app:showAsAction="always"
         />
 
     <item
         android:id="@+id/perfil"
-        android:title="Perfil"
+        android:title="@string/item_menu_perfil"
         android:icon="@drawable/perfil_icon"
         app:showAsAction="always"
         />
 
     <item
         android:id="@+id/mapa"
-        android:title="Compartir Localizacion"
+        android:title="@string/item_menu_geolocalizacion"
         android:icon="@drawable/localizar_icon"
         app:showAsAction="ifRoom"
         />
 
     <item
         android:id="@+id/cuenta"
-        android:title="Agregar Cuenta"
+        android:title="@string/item_menu_perfil"
         android:icon="@drawable/account_icon"
         app:showAsAction="ifRoom"
         />
 
     <item
         android:id="@+id/salir"
-        android:title="Cerrar Sesion"
+        android:title="@string/item_menu_salir"
         android:icon="@drawable/logout_icon"
         app:showAsAction="ifRoom"
         />

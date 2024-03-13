@@ -13,17 +13,18 @@
         android:background="#DDDDDD"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         tools:ignore="MissingConstraints"
+        app:popupTheme="@style/MenuStyle"
         />
 
     <Button
+        android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Abrir segunda Activity"
+        android:text="@string/btn_nueva_activity"
+        android:backgroundTint="@color/rojopasion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
